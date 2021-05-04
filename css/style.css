@@ -57,7 +57,7 @@ a {
 
 .form-heading {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
   -webkit-transform: scale3d(1, 1, 1.2);
@@ -77,8 +77,13 @@ a {
   color: #0d458f;
 }
 
-.form-heading.or {
-  margin-top: 20px;
+.form-heading.hero {
+  margin-top: 0px;
+}
+
+.button.center {
+  margin: 30px auto;
+  float: none;
 }
 
 .div-block {
@@ -724,6 +729,9 @@ a {
   line-height: 1.5em;
   text-align: center;
 }
+.text-block.confirmation {
+  margin-top: 100px;
+}
 
 .div-block-5 {
   position: relative;
@@ -894,6 +902,7 @@ a {
   .form-heading {
     font-size: 1.3em;
     line-height: 1.8em;
+    margin-top: 50px;
   }
 
   .form-heading.heading {

@@ -3,6 +3,15 @@
     <head>
     <meta charset="utf-8">
     <title>TapeCase</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3257280-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-3257280-1');
+    </script>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/base.css" rel="stylesheet" type="text/css">
@@ -17,10 +26,10 @@
             <a href="https://www.tapecase.com/">
                 <img src="images/TapeCase_Logo_Est_BLUE.png" loading="lazy" sizes="(max-width: 479px) 38vw, (max-width: 991px) 21vw, 13vw" srcset="images/TapeCase_Logo_Est_BLUE-p-500.png 500w, images/TapeCase_Logo_Est_BLUE-p-800.png 800w, images/TapeCase_Logo_Est_BLUE-p-1080.png 1080w, images/TapeCase_Logo_Est_BLUE.png 1600w" alt="" class="image" style="margin-bottom:20px;">
             </a>
-            <div class="text-block">
+            <div class="text-block confirmation">
                 Thank you for contacting us. We'll get in touch with you soon. <br>
                 If you would like to learn more about our products headover to <br>
-                <a class="form-heading" href="https://www.tapecase.com/">TapeCase.com</a>
+                <a class="button w-button center" href="https://www.tapecase.com/">TapeCase.com</a>
             </div>
         </div>
     </div>
