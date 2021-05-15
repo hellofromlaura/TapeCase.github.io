@@ -538,6 +538,16 @@ a {
   font-size: 1.3em;
 }
 
+a.call-link {
+  position: relative;
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-left: auto;
+  float: right;
+  color: #1a94d1;
+  font-size: 1.3em;
+}
+
 .button.cta {
   width: 30%;
   margin-top: 25px;
